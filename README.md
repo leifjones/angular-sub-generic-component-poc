@@ -1,5 +1,7 @@
 # AngularSubGenericComponentExample
 
+![screenshot](screenshot.jpg)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7. It started out with steps 1 - 3 of the [Angular 10 "Hero" tutorial](https://v10.angular.io/tutorial/toh-pt1). 
 
 Then I pivoted to implementing some proofs of concept for various ways to use Angular features. The still-functional remnants of the Hero tutorial are below the new components.
