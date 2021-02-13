@@ -1,0 +1,10 @@
+<h2>{{heading}}</h2>
+<app-vertical-list-item
+    class="lined"
+    *ngFor="let item of items; index as i"
+    [isFirst]="i==0"
+    [id]="item.id"
+    [text]="item.text"
+    [toolTipText]="item.toolTipText"
+    id="`item-${i}`">
+</app-vertical-list-item>
