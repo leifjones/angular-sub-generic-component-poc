@@ -7,6 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Then I pivoted to implementing some proofs of concept for various ways to use Angular features. The still-functional remnants of the Hero tutorial are below the new components.
 
 ## Noteables
+* Optional proof-of-concept tooltips (e.g. hover over the Drivers' names)
 * Model with class (vs. interface) for each data type
   * Base class shared by types that will be utilized by similar strucures
   * Custom constructors
