@@ -20,7 +20,7 @@ _See the `isFirst` attribute of the `<app-vertical-list-item>` element in `Verti
   * Exported via an `index.ts` at various points - allowing for cleaner imports throughout the application.
 
 ## Imagined Next Steps
-* Extending from the base VerticalListItemComponent to allow for multiple columns. A TableTemplateComponent paradigm might work for this if it many similar uses were anticipated. 
+* Extending from the base VerticalListItemComponent to allow for multiple columns. A TableTemplateComponent paradigm might work for this if it many similar uses were anticipated. This may take the form of a list of strings or objects passed in to the constructor of the VerticalListItem class via `super(...)`.
 * Try out a variant of the Hero tutorial's editing, but in-line with the VerticalListItemComponents.
 * More of the Angular tutorial steps: resolves, directives, and pipes, oh my!
 

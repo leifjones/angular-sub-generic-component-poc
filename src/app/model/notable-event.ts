@@ -10,7 +10,7 @@ export class NotableEvent extends VerticalListItem {
         super(id, text);
         // super(id, text, 'location');
         // super(id, text, 'time');
-        // super(id, test, 'truckRouteName');
+        // super(id, text, 'truckRouteName');
         this.truckRoute = truckRoute;
         this.time = time;
         this.location = location;
