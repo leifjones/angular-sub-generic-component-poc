@@ -8,6 +8,7 @@ Then I pivoted to implementing some proofs of concept for various ways to use An
 * Model with class (vs. interface) for each data type
   * Base class shared by types that will be utilized by similar strucures
   * Custom constructors
+    * *To check out some of the flexibility here, try swapping out the `super(...)` constructor call with one of the commented out ones in the `NotableEvent` class and then hover over the items in the left column of the site.*
 * A component that is either reused (and could be extended)<br> _Reduces variation and duplication of code._
   * Utilizes Angular's `@Input()` to pass in data from parent component, which - in a more complete system would be the thing that obtains data from a data service or an intermediary facade.
   * Receives an optional tooltip parameter
